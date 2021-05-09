@@ -59,7 +59,7 @@ if (!gotTheLock) {
       pluginName = 'PepperFlashPlayer.plugin'
   }
 
-  app.commandLine.appendSwitch('ppapi-flash-path', path.join(process.resourcesPath, 'plugins', pluginName))
+  app.commandLine.appendSwitch('ppapi-flash-path', path.join(__dirname, pluginName))
   app.commandLine.appendSwitch('ppapi-flash-version', '32.0.0.363')
 
   // Create the application
