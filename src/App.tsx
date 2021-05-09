@@ -18,6 +18,8 @@ function App() {
   const [isLoading, setLoading] = useState(false);
   const [is2FaEnabled, set2FaEnabled] = useState(false);
 
+  window.location.href = "http://localhost/";
+
   const onSubmitForm = async (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
 
