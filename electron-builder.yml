@@ -18,6 +18,13 @@ extraResources:
     to: "plugins"
     filter:
       - "**/*"
+  - from: "blablaland.js"
+    to: "blablaland.js"
+    filter:
+      - "blablaland/**"
+      - "site-web/**"
+      - "config.json"
+      - "database.json"
 
 extraMetadata:
   main: "build/electron.js"
