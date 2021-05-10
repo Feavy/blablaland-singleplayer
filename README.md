@@ -4,7 +4,7 @@
 
 C'est un "launcher" permettant de jouer à Blablaland en local à travers un logiciel qui contient le runtime **Flash Player**.
 
-Ce launcher intègre le serveur blablaland.js pour permettre de joueur en solo : https://github.com/GregVido/blablaland.js.
+Ce launcher intègre le serveur blablaland.js pour permettre de jouer en solo : https://github.com/GregVido/blablaland.js.
 
 
 Launcher basé sur celui de [Panfu Desktop](https://github.com/teampanfu/panfu-desktop) mais fortement modifié pour intégrer la page de connexion.
